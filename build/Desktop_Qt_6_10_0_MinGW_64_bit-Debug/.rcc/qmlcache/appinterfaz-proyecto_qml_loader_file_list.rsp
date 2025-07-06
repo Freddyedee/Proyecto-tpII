@@ -1,0 +1,10 @@
+--resource
+C:/Users/USER/Desktop/interfaz-proyecto/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/.qt/rcc/qmake_interfaz-proyecto.qrc
+--resource
+C:/Users/USER/Desktop/interfaz-proyecto/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/.qt/rcc/appinterfaz-proyecto_raw_qml_0.qrc
+/interfaz-proyecto/Main.qml
+/interfaz-proyecto/PreferenciasPage.qml
+/interfaz-proyecto/RegistroPage.qml
+/interfaz-proyecto/ProductosRecomendados.qml
+/interfaz-proyecto/LoginPage.qml
+/interfaz-proyecto/Bienvenida.qml

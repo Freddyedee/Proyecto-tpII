@@ -1,0 +1,129 @@
+{
+    "classes": [
+        {
+            "className": "BackendManager",
+            "lineNumber": 11,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "username",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "contrasena",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "iniciarSesion",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "isConst": true,
+                    "name": "obtenerNombreUsuarioActual",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "CerrarSesion",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "UsuarioLogeado",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "isConst": true,
+                    "name": "ObtenerIDUser",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nombre",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "apellido",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "username",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "contrasena",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "RegistrarUsuarioCompleto",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "isConst": true,
+                    "name": "ObtenerCategoriasDisponibles",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "categoria",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "isConst": true,
+                    "name": "ObtenerMarcasporCategoria",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "categorias",
+                            "type": "QStringList"
+                        },
+                        {
+                            "name": "marcas",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "GuardarPreferencia",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "isConst": true,
+                    "name": "ObtenerProductosPreferidos",
+                    "returnType": "QVariantList"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "BackendManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "BackendManager.h",
+    "outputRevision": 69
+}

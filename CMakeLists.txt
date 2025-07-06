@@ -1,0 +1,93 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(interfaz-proyecto VERSION 0.1 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(Qt6 REQUIRED COMPONENTS Quick)
+
+qt_standard_project_setup(REQUIRES 6.8)
+
+qt_add_executable(appinterfaz-proyecto
+    main.cpp
+)
+
+qt_add_qml_module(appinterfaz-proyecto
+    URI interfaz-proyecto
+    VERSION 1.0
+    RESOURCE_PREFIX /
+    QML_FILES
+        Main.qml
+        PreferenciasPage.qml
+        RegistroPage.qml
+
+        SOURCES DataStructures/GenerarID.h DataStructures/GenerarID.cpp
+        SOURCES
+        SOURCES Logic/productomanager.h Logic/productomanager.cpp
+        SOURCES Logic/PreferenciaManager.h Logic/PreferenciaManager.cpp
+        QML_FILES PreferenciasPage.qml
+        QML_FILES RegistroPage.qml
+        QML_FILES ProductosRecomendados.qml
+        QML_FILES LoginPage.qml
+        QML_FILES Bienvenida.qml
+
+)
+
+
+target_sources(appinterfaz-proyecto
+    PRIVATE
+        main.cpp
+
+        # Core
+        Core/CatalogoPreferencias.h
+        Core/Historial.h
+        Core/Preferencias.h
+        Core/Productos.h
+        Core/Usuario.h
+
+        # DataStructures
+        DataStructures/ArbolBinarioBusqueda.cpp
+        DataStructures/ArbolBinarioBusqueda.h
+        DataStructures/ColaHistorial.cpp
+        DataStructures/ColaHistorial.h
+        DataStructures/GenerarID.cpp
+        DataStructures/GenerarID.h
+
+        # Logic
+        Logic/Usuario_Manager.cpp
+        Logic/Usuario_Manager.h
+        Logic/HistorialManager.cpp
+        Logic/HistorialManager.h
+        Logic/productomanager.h
+        Logic/productomanager.cpp
+        Logic/PreferenciaManager.cpp
+        Logic/PreferenciaManager.h
+
+        #backend
+        Backend/Backendmanager.cpp
+        Backend/BackendManager.h
+
+        #validaciones
+
+
+
+
+)
+
+
+set_target_properties(appinterfaz-proyecto PROPERTIES
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
+)
+
+target_link_libraries(appinterfaz-proyecto
+    PRIVATE Qt6::Quick
+)
+
+include(GNUInstallDirs)
+install(TARGETS appinterfaz-proyecto
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)

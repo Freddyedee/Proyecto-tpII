@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/interfaz-proyecto/">
+    <file alias="Main.qml">C:/Users/USER/Desktop/interfaz-proyecto/Main.qml</file>
+    <file alias="PreferenciasPage.qml">C:/Users/USER/Desktop/interfaz-proyecto/PreferenciasPage.qml</file>
+    <file alias="RegistroPage.qml">C:/Users/USER/Desktop/interfaz-proyecto/RegistroPage.qml</file>
+    <file alias="ProductosRecomendados.qml">C:/Users/USER/Desktop/interfaz-proyecto/ProductosRecomendados.qml</file>
+    <file alias="LoginPage.qml">C:/Users/USER/Desktop/interfaz-proyecto/LoginPage.qml</file>
+    <file alias="Bienvenida.qml">C:/Users/USER/Desktop/interfaz-proyecto/Bienvenida.qml</file>
+  </qresource>
+</RCC>
+

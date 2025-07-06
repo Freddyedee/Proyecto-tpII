@@ -1,0 +1,10 @@
+module interfaz-proyecto
+typeinfo appinterfaz-proyecto.qmltypes
+prefer :/interfaz-proyecto/
+Main 1.0 Main.qml
+PreferenciasPage 1.0 PreferenciasPage.qml
+RegistroPage 1.0 RegistroPage.qml
+ProductosRecomendados 1.0 ProductosRecomendados.qml
+LoginPage 1.0 LoginPage.qml
+Bienvenida 1.0 Bienvenida.qml
+

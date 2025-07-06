@@ -1,0 +1,111 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 158,
+                            "functionName": "title",
+                            "line": 18,
+                            "message": "Cannot access value for name exito"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 200,
+                            "functionName": "standardButtons",
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 314,
+                            "functionName": "onAccepted",
+                            "line": 28,
+                            "message": "Cannot access value for name exito"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 31,
+                            "functionName": "text",
+                            "line": 22,
+                            "message": "Cannot access value for name mensaje"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 73,
+                            "functionName": "wrapMode",
+                            "line": 23,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 61,
+                            "functionName": "horizontalAlignment",
+                            "line": 25,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 62,
+                            "functionName": "fill",
+                            "line": 35,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 52,
+                            "functionName": "centerIn",
+                            "line": 40,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 64,
+                            "functionName": "alignment",
+                            "line": 47,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 61,
+                            "functionName": "echoMode",
+                            "line": 59,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 913,
+                            "functionName": "onClicked",
+                            "line": 66,
+                            "message": "Cannot find name mensaje"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 420,
+                            "functionName": "onClicked",
+                            "line": 90,
+                            "message": "Cannot load property pop from conversion to QQuickItem."
+                        }
+                    ],
+                    "filePath": "C:/Users/USER/Desktop/interfaz-proyecto/LoginPage.qml"
+                }
+            ],
+            "moduleId": "interfaz-proyecto(appinterfaz-proyecto)"
+        }
+    ]
+}
